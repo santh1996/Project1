@@ -1,0 +1,278 @@
+body{
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #333333;
+	font-family: montserrat,arial,verdana;
+}
+
+#form-main{
+	width: 100%;
+	float: left;
+	padding-top: 0px;
+}
+
+div{
+	display: block;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#form-div{
+	background: white;
+	box-shadow: 0 0 15px 1px rgba(0,0,0,0.4);
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	width: 80%;
+	float: left;
+	left: 10%;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 0px;
+	margin: 2% 0%;
+	-webkit-border-radius:7px;
+}
+
+form{
+	display: block;
+	margin-top: 0em;
+}
+
+p{
+	margin: 0 0 10px;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.feedback-input2{
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #2C3E50;
+	font-size: 13px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	margin-bottom: 10px;
+	width: 100%;
+	-webkit-box-sizzing:border-box;
+}
+
+.feedback-select1{
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #2C3E50;
+	font-size: 13px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	margin-bottom: 10px;
+    -webkit-box-sizzing:border-box;
+
+}
+.feedback-select2{
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #2C3E50;
+	font-size: 13px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	margin-bottom: 10px;
+    -webkit-box-sizzing:border-box;
+
+}
+
+.feedback-select4 {
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	color: #2C3E50;
+	font-size: 13px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	margin-bottom: 10px;
+	width: 100%;
+    -webkit-box-sizzing: border-box;
+
+}
+
+
+element.style{
+	display: block;
+	float: right;
+}
+
+option{
+	font-weight: normal;
+	display: block;
+	white-space: pre;
+	min-height: 1.2em;
+	padding: 0px 2px 1px;
+}
+
+#msform select.feedback-select2:required:valid{
+	background-position: 96% 20%;
+	background-repeat: no-repeat;
+}
+
+#msform select.feedback-select4:required:invalid{
+	background-position: 98% 20%;
+	background-repeat: no-repeat;
+}
+
+.col-sm-3, .col-sm-5, .col-sm-7, .col-sm-9, .col-sm-12 {
+	width: 25%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+@media(min-width: 768px)
+.col-sm-5{
+	width: 41.6666666666667%;
+	float: left;
+
+}
+.col-sm-7{
+	width: 58.333333333333336%;
+	float: left;
+}
+
+#msform 
+input:required:invalid {
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+u {
+	text-decoration: underline;
+}
+b {
+	font-weight: bold;
+}
+a {
+	color: #FF9933;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2a6496;
+}
+a: -webkit-any-link{
+	cursor: pointer;
+}
+
+input{
+	
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	font: 400 13.3333px Arial;
+	-webkit-rtl-ordering: logical;
+	-webkit-writing-mode: horizontal-tb
+	!important;
+}
+
+input:hover {
+	background-color: white;
+}
+
+.pan_checkbox {
+	width: 20px;
+	background: #000000;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+
+}
+
+input[type="checkbox"], input[type="radio"]
+{
+	margin: 4px 0 0;
+	line-height: normal;
+	padding: 0;
+	box-sizing: border-box;
+}
+input{
+	font-family: inherit;
+	font-size: inherit;
+}
+
+input[type="submit"], input[type="reset"]{
+	-webkit-appearance: button;
+}
+input[type="submit" i]
+{
+	align-items: flex-start;
+	text-align: center;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonface;
+	border-image: initial;
+	user-select: none;
+	white-space: pre;
+
+}
+input[type="reset" i] {
+	align-items: flex-start;
+	text-align: center;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonface;
+	border-image: initial;
+	user-select: none;
+	white-space: pre;
+}
+
+input[type="checkbox" i] {
+	-webkit-appearance: checkbox;
+}
+
+#msform .action-button {
+	width: 150px;
+	/*background: #B41200;*/
+	font-size: 20px;
+	font-weight: bold;
+	/*color: white*/
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 5.5px 11px;
+	margin: 20px 5px;
+}
+
+#msform .action-button:hover {
+	border-top-color: #006600;
+	background: #006600;
+	color: #ffffff;
+}
+
+.row:after{
+	clear: both;
+}
+.row:before, .row:after{
+	display: table;
+	content: " ";
+}

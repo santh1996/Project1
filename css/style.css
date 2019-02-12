@@ -1,0 +1,48 @@
+#full{
+	width: 100%;
+	height: auto;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: red;
+}
+
+#logo{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+
+#nav{
+	width:70%;
+	height: 100px;
+	float: left;
+}
+
+ul li{
+	list-style: none;
+	float: left;
+	width: 30%;
+	height: 50px;
+	line-height: 70px;
+	text-align: center;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+p{
+	font-size: 25px;
+	padding: 10px;
+}
+#banner{
+	background : url("https://www.technobuffalo.com/wp-content/uploads/2014/04/fast-food.jpg");
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+
+}

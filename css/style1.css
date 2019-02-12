@@ -1,0 +1,99 @@
+#header{
+	width: 100%;
+	height: 100px;
+	line-height: 80px;
+	border-bottom: 2px solid skyblue;
+}
+#header #nav{
+	width: 75%;
+	float: left;
+}
+#header #logo{
+	width: 25%;
+	float: left;
+}
+#header ul li{
+	list-style: none;
+	float: left;
+	width: 14%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+}
+#header ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.a{
+	float: left;
+	width: 22%;
+	height: 500px;
+	margin: 10px 10px;
+	border: 1px solid skyblue;
+}
+.b{
+	float: left;
+	width: 50%;
+	height: 500px;
+	margin: 10px 10px;
+	border: 1px solid skyblue;
+}
+.c{
+	float: left;
+	width: 23%;
+	height: 500px;
+	margin: 10px 10px;
+	border: 1px solid skyblue;
+}
+.a1{
+	text-align: center;
+	float: left;
+	width: 220px;
+	height: 150px;
+	margin: 20px 40px;
+	border: 1px solid blue;
+}
+.a2{
+	text-align: center;
+	float: left;
+	width: 220px;
+	height: 130px;
+	margin: 20px 40px;
+	border: 1px solid blue;
+}
+.a3{
+	text-align: center;
+	float: left;
+	width: 220px;
+	height: 100px;
+	margin: 20px 40px;
+	border: 1px solid blue;
+}
+.c1{
+	text-align: center;
+	float: left;
+	width: 220px;
+	height: 150px;
+	margin: 20px 40px;
+	border: 1px solid blue;
+}
+.c2{
+	text-align: center;
+	float: left;
+	width: 220px;
+	height: 130px;
+	margin: 20px 40px;
+	border: 1px solid blue;
+}
+.c3{
+	text-align: center;
+	float: left;
+	width: 220px;
+	height: 100px;
+	margin: 20px 40px;
+	border: 1px solid blue;
+}

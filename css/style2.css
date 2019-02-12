@@ -1,0 +1,15 @@
+legend
+{
+	font-weight: bold;
+	border: 2px solid black;
+	width: 15%;
+	height: 15%;
+	text-align: center;
+	/*border: 1px solid #888;
+
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;*/
+
+	padding: .5em;
+	background-color: #CCC;
+}
